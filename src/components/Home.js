@@ -1,12 +1,13 @@
 import React from 'react';
+import About from './About';
+import Banner from './Banner';
+
 
 const Home = () => {
     return (
-        <div className='h-screen'>
-            <div className='flex justify-center items-center'>
-                <img src="" className='mask mask-hexagon-2 ' alt="" />
-
-            </div>
+        <div className=''>
+            <Banner></Banner>
+            <About></About>
         </div>
     );
 };
