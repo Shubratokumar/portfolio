@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 const Navbar = () => {
     const ResumeLink = (
         <a className="btn btn-outline btn-primary" href="https://drive.google.com/file/d/1LZ3YgIRgbtN1B118aa8lFxMe42EOixhT/view" target="_blank" rel="noopener noreferrer">
@@ -51,7 +52,7 @@ const Navbar = () => {
           </ul>
         </div>
         <p className="font-semibold text-3xl text-primary">
-            <Link to="/">SK</Link>            
+            <Link to="/"><img src={logo} className="mask mask-hexagon-2 w-14" alt="" /></Link>            
         </p>
       </div>
       <div className="navbar-end hidden lg:flex">
