@@ -19,8 +19,8 @@ const Contact = () => {
     <div className="h-screen p-10 lg:py-20 ">
       <div className="flex flex-col justify-center items-center">
         <div className="my-10 text-center w-full lg:w-6/12">
-          <p className="text-xl">What’s Next? </p>
-          <h1 className="font-bold text-4xl lg:text-5xl pb-4">Get In Touch</h1>
+          <p className="text-xl lg:text-2xl font-light">What’s Next? </p>
+          <h1 className="font-semibold text-4xl lg:text-5xl pb-4">Get In Touch</h1>
         </div>
       </div>
       <div className="lg:w-1/2 md:w-2/3 mx-auto">

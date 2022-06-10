@@ -7,12 +7,12 @@ const Services = () => {
   return (
     <section className="h-full  p-10 lg:py-30">
         <div className="flex flex-col justify-center items-center pb-8">
-            <h2 className="text-2xl font-light">Services</h2>
-            <p className="text-5xl font-semibold">What I Do</p>
+            <h2 className="text-xl lg:text-2xl font-light">Services</h2>
+            <p className="text-4xl lg:text-5xl font-semibold">What I Do</p>
         </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
-        <div class="card w-96 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-7">
+        <div class="card w-full lg:w-96 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
           <figure>
             <img
               src={responsive}
@@ -31,7 +31,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
+        <div class="card w-full lg:w-96 bg-base-100 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
           <figure >
             <img
               src={frontend}
@@ -49,7 +49,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
+        <div class="card w-full lg:w-96 bg-base-100 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
           <figure >
             <img
               src={backend}
