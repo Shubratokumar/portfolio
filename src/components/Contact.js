@@ -15,8 +15,9 @@ const Contact = () => {
           e.target.reset();
     };
 
-  return (
-    <div className="h-screen p-10 lg:py-20 ">
+    return (
+      <section id='contact'>
+        <div className="h-screen p-10 lg:py-20 ">
       <div className="flex flex-col justify-center items-center">
         <div className="my-10 text-center w-full lg:w-6/12">
           <p className="text-xl lg:text-2xl font-light">What’s Next? </p>
@@ -81,6 +82,8 @@ const Contact = () => {
         </form>
       </div>
     </div>
+      </section>
+    
   );
 };
 

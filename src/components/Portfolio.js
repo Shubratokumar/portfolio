@@ -5,7 +5,7 @@ import project3 from "../assets/images/Heaven-Dental-Home .png";
 
 const Portfolio = () => {
   return (
-    <section className="h-full  p-10 lg:py-30 bg-[#EEEEEE]">
+    <section id="portfolio" className="h-full  p-10 lg:py-30 bg-[#EEEEEE]">
       <div className="flex flex-col justify-center items-center pb-8">
         <h2 className="text-xl lg:text-2xl font-light">Projects</h2>
         <p className="text-4xl lg:text-5xl font-semibold">My Recent Projects</p>
