@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Services from './Services';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Services></Services>
             <Portfolio></Portfolio>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
