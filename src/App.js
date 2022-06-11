@@ -2,9 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Contact from './components/Contact';
-import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Blogs from './components/Blogs';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
-        <Route path="/about" element={<About/>}></Route>
+        <Route path="/about" element={<AboutMe/>}></Route>
         <Route path="/portfolio" element={<Portfolio/>}></Route>
         <Route path="contact" element={<Contact/>}></Route>
         <Route path="/blogs" element={<Blogs/>}></Route>

@@ -8,7 +8,7 @@ const Portfolio = () => {
     <section id="portfolio" className="h-full mt-10 p-10 lg:py-30 bg-[#EEEEEE]">
       <div className="flex flex-col justify-center items-center pb-10">
         <h2 className="text-xl lg:text-2xl font-light">Projects</h2>
-        <p className="text-4xl lg:text-5xl font-semibold">My Recent Projects</p>
+        <p className="text-4xl lg:text-5xl font-semibold text-center">My Recent Projects</p>
       </div>
       <div>
         <div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
