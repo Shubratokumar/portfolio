@@ -5,17 +5,42 @@ import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { useTypewriter, Cursor} from 'react-simple-typewriter'
+// import { Typewriter } from 'react-simple-typewriter'
+// import Particle from "./Particles/Particle";
 
 const Banner = () => {
+  const {text} = useTypewriter({
+    words: ['Web Developer', 'Frontend Developer', 'Jr. MERN Stack Developer', 'Tech Enthusiastic'],
+    loop: 3
+  })
   return (
     <div>
       <div className="flex flex-col justify-center items-center">
         <img src={profile} className="mask mask-hexagon-2 w-80" alt="" />
         <div className="my-10 text-center px-10">
+        <p className='text-2xl font-light'>Hi, my name is </p>
+          <h1 className='font-bold text-4xl lg:text-5xl pb-4'><span className="text-pink-700">Shubrato Kumar Gharami</span>.</h1>
+          <p className='text-2xl font-light'>I'm a </p>
           <h1 className="font-bold text-4xl lg:text-5xl pb-4">
-            Frontend Developer
+            <span className="text-secondary">
+              {text}
+              <Cursor />
+              .
+            </span>
+              {/* <span className="text-secondary">
+              <Typewriter
+                words={['Web Developer', 'Frontend Developer', 'Jr. MERN Stack Developer', 'Tech Enthusiastic']}
+                loop={5}
+                cursor
+                cursorStyle='|'
+                typeSpeed={70}
+                deleteSpeed={40}
+                delaySpeed={500}
+              />
+            </span> */}            
           </h1>
-          <p className="font-light lg:text-lg">
+          <p className="font-light text-2xl">
             I love what I do. I enjoy making simple things beautiful by Coding
             and Developing.
           </p>
