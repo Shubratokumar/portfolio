@@ -12,7 +12,7 @@ import { useTypewriter, Cursor} from 'react-simple-typewriter'
 const Banner = () => {
   const {text} = useTypewriter({
     words: ['Web Developer', 'Frontend Developer', 'Jr. MERN Stack Developer', 'Tech Enthusiastic'],
-    loop: 3
+    loop: 0
   })
   return (
     <div>
@@ -20,13 +20,13 @@ const Banner = () => {
         <img src={profile} className="mask mask-hexagon-2 w-80" alt="" />
         <div className="my-10 text-center px-10">
         <p className='text-2xl font-light'>Hi, my name is </p>
-          <h1 className='font-bold text-4xl lg:text-5xl pb-4'><span className="text-pink-700">Shubrato Kumar Gharami</span>.</h1>
+          <h1 className='font-bold text-4xl lg:text-5xl pb-4'><span className="text-pink-700">Shubrato Kumar Gharami .</span></h1>
           <p className='text-2xl font-light'>I'm a </p>
           <h1 className="font-bold text-4xl lg:text-5xl pb-4">
             <span className="text-secondary">
               {text}
               <Cursor />
-              .
+               .
             </span>
               {/* <span className="text-secondary">
               <Typewriter
