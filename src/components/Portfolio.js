@@ -7,11 +7,25 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="h-full mt-10 p-10 lg:py-30 bg-[#EEEEEE]">
       <div className="flex flex-col justify-center items-center pb-10">
-        <h2 className="text-xl lg:text-2xl font-light">Projects</h2>
-        <p className="text-4xl lg:text-5xl font-semibold text-center">My Recent Projects</p>
+        <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+        >
+          <h2 className="text-xl lg:text-2xl font-light">Projects</h2>
+        </div>
+        <div data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+        >
+          <p className="text-4xl lg:text-5xl font-semibold text-center">My Recent Projects</p>
+        </div>
       </div>
       <div>
-        <div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
+        <div
+        data-aos="fade-up-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+         className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
           <div className="flex-1">
             <img src={project1} className="w-full h-[400px]" alt="" />
           </div>
@@ -74,7 +88,11 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
+        <div 
+        data-aos="fade-up-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
           <div className="flex-1 mx-3 p-3">
             <h2 className="text-xl lg:text-2xl font-semibold pb-3">
               Apex Warehouse Management
@@ -132,7 +150,11 @@ const Portfolio = () => {
             <img src={project2} className="w-full h-[400px]" alt="" />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
+        <div 
+        data-aos="fade-up-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto rounded-md  bg-base-100 p-3.5 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300 mb-9 lg:mb-5">
           <div className="flex-1">
             <img src={project3} className="w-full h-[400px]" alt="" />
           </div>
