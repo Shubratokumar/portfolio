@@ -5,7 +5,7 @@ import backend from "../assets/images/backend.jpg";
 
 const Services = () => {
   return (
-    <section className="h-full  p-10 lg:py-30 lg:mt-[-300px]">
+    <section className="h-full  p-10 lg:py-30 mt-[-300px]">
         <div className="flex flex-col justify-center items-center pb-8 lg:text-white">
             <h2 className="text-xl lg:text-2xl font-light">Services</h2>
             <p className="text-4xl lg:text-5xl font-semibold">What I Do</p>

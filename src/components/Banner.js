@@ -7,15 +7,16 @@ import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
 // import { Typewriter } from 'react-simple-typewriter'
-// import Particle from "./Particles/Particle";
 
 const Banner = () => {
+  // Typewriter 
   const {text} = useTypewriter({
-    words: ['Web Developer', 'Frontend Developer', 'Jr. MERN Stack Developer', 'Tech Enthusiastic'],
+    words: ['Web Developer', 'Frontend Developer', 'Jr. MERN Stack Developer', 'Tech Enthusiastic .'],
     loop: 0
   })
   return (
     <div>
+      
       <div className="flex flex-col justify-center items-center">
         <img src={profile} className="mask mask-hexagon-2 w-80" alt="" />
         <div className="my-10 text-center px-10">
@@ -26,7 +27,6 @@ const Banner = () => {
             <span className="text-secondary">
               {text}
               <Cursor />
-               .
             </span>
               {/* <span className="text-secondary">
               <Typewriter
