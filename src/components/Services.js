@@ -22,7 +22,7 @@ const Services = () => {
         </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-7">
         <div 
-        data-aos="fade-up-right"
+        data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         class="card w-full lg:w-96 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
@@ -67,7 +67,7 @@ const Services = () => {
           </div>
         </div>
         <div 
-        data-aos="fade-up-left"
+        data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
          class="card w-full lg:w-96 bg-base-100 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300">
